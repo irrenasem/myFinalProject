@@ -1,4 +1,4 @@
-name: CI
+semname: CI
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t your-dockerhub-username/weather-app:latest .
+        docker build -t irrenasem/weather-app:latest .
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
@@ -39,4 +39,4 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker push your-dockerhub-username/weather-app:latest
+        docker push irrenasem/weather-app:latest
