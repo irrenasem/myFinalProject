@@ -1,4 +1,4 @@
-semname: CI
+name: Wethar Application CI/CD
 
 on:
   push:
