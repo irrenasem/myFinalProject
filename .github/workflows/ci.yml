@@ -23,7 +23,7 @@ jobs:
     
     - name: Test app
       run: |
-        python app.py <<EOF
+        python weather_app.py <<EOF
         London
         2024-08-30
         EOF
